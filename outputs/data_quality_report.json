@@ -1,0 +1,16 @@
+{
+  "before_cleaning": {
+    "rows": 12060,
+    "duplicate_customer_ids": 60,
+    "missing_values": 363,
+    "invalid_ages": 31,
+    "negative_spend": 30
+  },
+  "after_cleaning": {
+    "rows": 12000,
+    "duplicate_customer_ids": 0,
+    "missing_values": 0,
+    "invalid_ages": 0,
+    "negative_spend": 0
+  }
+}

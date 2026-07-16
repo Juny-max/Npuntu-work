@@ -1,0 +1,6 @@
+1. Launch automated re-engagement messages before customers reach about 94 days without purchasing.
+2. Prioritize retention offers for Basic members, the membership group with the highest observed churn rate.
+3. Send cart reminders and limited-time incentives to customers with high cart-abandonment rates.
+4. Route customers with repeated support tickets to proactive service follow-ups before dissatisfaction causes churn.
+5. Create a CRM risk segment from the model probability and contact the highest-risk customers first.
+6. Monitor recency_days closely because the trained model identified it as the strongest churn driver.

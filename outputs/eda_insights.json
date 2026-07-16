@@ -1,0 +1,8 @@
+{
+  "customers": 12000,
+  "churn_rate_percent": 26.77,
+  "average_customer_spend": 444.33,
+  "average_purchases": 5.98,
+  "highest_churn_membership": "Basic",
+  "highest_churn_device": "Tablet"
+}
