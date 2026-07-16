@@ -220,7 +220,7 @@ def perform_eda(df: pd.DataFrame) -> dict:
     axes[0, 0].set_xticklabels(["Active", "Churned"])
 
     churn_membership = df.groupby("membership", observed=False)["churn"].mean().mul(100).reset_index()
-    sns.barplot(data=churn_membership, x="membership", y="churn", ax=axes[0, 1], color="#EB5757")
+    sns.barplot(data=churn_membership, x="membership", y="churn", ax=axes[0, 1])
     axes[0, 1].set_title("Churn Rate by Membership")
     axes[0, 1].set_ylabel("Churn rate (%)")
 
@@ -348,7 +348,7 @@ def train_churn_model(df: pd.DataFrame) -> tuple[Pipeline, dict, pd.DataFrame]:
         display_labels=["Active", "Churned"],
     ).plot(ax=axes[0], cmap="Blues", colorbar=False)
     axes[0].set_title("Confusion Matrix")
-    RocCurveDisplay.from_predictions(y_test, probabilities, ax=axes[1], color="#EB5757")
+    RocCurveDisplay.from_predictions(y_test, probabilities, ax=axes[1])
     axes[1].set_title("ROC Curve")
     plt.tight_layout()
     fig.savefig(CHART_DIR / "model_evaluation.png", dpi=160, bbox_inches="tight")

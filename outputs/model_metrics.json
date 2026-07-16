@@ -1,10 +1,10 @@
 {
-  "accuracy": 0.7929,
-  "precision": 0.6185,
-  "recall": 0.5925,
-  "f1_score": 0.6052,
-  "roc_auc": 0.805,
-  "cross_validation_f1_mean": 0.5883,
-  "cross_validation_f1_std": 0.0145,
+  "accuracy": 0.7754,
+  "precision": 0.571,
+  "recall": 0.6501,
+  "f1_score": 0.608,
+  "roc_auc": 0.8062,
+  "cross_validation_f1_mean": 0.5906,
+  "cross_validation_f1_std": 0.0055,
   "test_customers": 2400
 }
